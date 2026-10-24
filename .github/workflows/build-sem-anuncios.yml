@@ -53,7 +53,7 @@ jobs:
 
       - name: Compilar (sem assinatura)
         run: |
-          set -uo pipefail
+          set +e -uo pipefail
           xcodebuild \
             -workspace iTorrent.xcworkspace \
             -scheme "iTorrent" \
