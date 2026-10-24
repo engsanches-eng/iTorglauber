@@ -41,12 +41,10 @@ struct ProgressWidgetLiveActivity: Widget {
                 ProgressWidgetLiveActivityWatchSupportContent(context: context)
                     .tint(Color(uiColor: context.tintColor))
                     .padding()
-                    .activityBackgroundTint(.clear)
             } else {
                 ProgressWidgetLiveActivityContent(context: context)
                     .tint(Color(uiColor: context.tintColor))
                     .padding()
-                    .activityBackgroundTint(.clear)
             }
         } dynamicIsland: { context in
             DynamicIsland {
