@@ -1,0 +1,100 @@
+name: "iTorrent sem anuncios (IPA nao assinado para AltStore)"
+
+# Roda sozinho a cada push neste arquivo, ou manualmente: Actions > Run workflow
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/workflows/build-sem-anuncios.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: macos-26
+    timeout-minutes: 120
+    steps:
+      - name: Selecionar Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: 26.6
+
+      - name: Baixar codigo (com submodulos)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Instalar boost
+        run: brew install boost
+
+      - name: Compilar libtorrent
+        run: ./Submodules/LibTorrent-Swift/make.sh
+
+      - name: Desligar Firebase (analytics, crashlytics, remote config)
+        run: |
+          set -euo pipefail
+          # 1) Todo codigo protegido por canImport(Firebase...) deixa de compilar
+          grep -rl "canImport(Firebase" --include=*.swift iTorrent | while read -r f; do
+            perl -pi -e 's/canImport\(Firebase[A-Za-z]*\)/false/g' "$f"
+            echo "Firebase desligado em: $f"
+          done
+          # 2) Script de upload de dSYMs do Crashlytics vira no-op
+          perl -pi -e 's#shellScript = ".*Crashlytics/run.*";#shellScript = "exit 0\\n";#' iTorrent.xcodeproj/project.pbxproj
+          # 3) O projeto referencia GoogleService-Info.plist (nao versionado). Cria um vazio so para o build passar.
+          printf '%s\n' '<?xml version="1.0" encoding="UTF-8"?>' \
+            '<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">' \
+            '<plist version="1.0"><dict/></plist>' > iTorrent/Core/Assets/GoogleService-Info.plist
+          # Conferencias: falha o build se algo nao foi aplicado
+          if grep -rq "canImport(Firebase" --include=*.swift iTorrent; then echo "ERRO: Firebase ainda ativo"; exit 1; fi
+          if grep -q "Crashlytics/run" iTorrent.xcodeproj/project.pbxproj; then echo "ERRO: script Crashlytics ainda ativo"; exit 1; fi
+          if grep -q "GoogleMobileAds" iTorrent.xcodeproj/project.pbxproj; then echo "ERRO: SDK de anuncios linkado"; exit 1; fi
+          echo "OK: sem SDK de anuncios e sem Firebase ativo"
+
+      - name: Compilar (sem assinatura)
+        run: |
+          set -euo pipefail
+          xcodebuild \
+            -workspace iTorrent.xcworkspace \
+            -scheme "iTorrent" \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination generic/platform=iOS \
+            -archivePath "$RUNNER_TEMP/itorrent.xcarchive" \
+            -skipMacroValidation \
+            -skipPackagePluginValidation \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            clean archive
+
+      - name: Empacotar IPA
+        run: |
+          set -euo pipefail
+          APP="$RUNNER_TEMP/itorrent.xcarchive/Products/Applications/iTorrent.app"
+          test -d "$APP" || { echo "ERRO: iTorrent.app nao foi gerado"; exit 1; }
+          mkdir -p "$RUNNER_TEMP/ipa/Payload"
+          cp -R "$APP" "$RUNNER_TEMP/ipa/Payload/"
+          cd "$RUNNER_TEMP/ipa"
+          zip -qry iTorrent-sem-anuncios.ipa Payload
+          ls -lh iTorrent-sem-anuncios.ipa
+          # Prova: nenhum framework de anuncios dentro do app
+          if find Payload -iname "*GoogleMobileAds*" -o -iname "*UnityAds*" -o -iname "*FBAudienceNetwork*" | grep -q .; then
+            echo "ERRO: framework de anuncios encontrado no IPA"; exit 1
+          fi
+          echo "OK: IPA sem frameworks de anuncios"
+
+      - name: Disponibilizar IPA para download
+        uses: actions/upload-artifact@v4
+        with:
+          name: iTorrent-sem-anuncios
+          path: ${{ runner.temp }}/ipa/iTorrent-sem-anuncios.ipa
+          retention-days: 30
+
+      - name: Publicar como Release (download direto no iPhone)
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: sem-anuncios-${{ github.run_number }}
+          name: iTorrent sem anuncios (build ${{ github.run_number }})
+          body: IPA nao assinado, sem SDK de anuncios e sem Firebase. Instalar pelo AltStore > My Apps > +.
+          files: ${{ runner.temp }}/ipa/iTorrent-sem-anuncios.ipa
