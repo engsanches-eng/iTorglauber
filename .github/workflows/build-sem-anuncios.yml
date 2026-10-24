@@ -1,6 +1,6 @@
 name: "iTorrent sem anuncios (IPA nao assinado para AltStore)"
 
-# Roda sozinho a cada push neste arquivo, ou manualmente: Actions > Run workflow
+# Roda sozinho a cada push neste arquivo (ou manualmente: Actions > Run workflow)
 on:
   workflow_dispatch:
   push:
