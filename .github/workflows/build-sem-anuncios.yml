@@ -99,12 +99,18 @@ jobs:
             echo "ERRO: framework de anuncios encontrado no IPA"; exit 1
           fi
           echo "OK: IPA sem frameworks de anuncios"
+          # Variante sem o widget (1 App ID a menos; ajuda em servidores remotos/contas gratuitas)
+          rm -rf Payload/iTorrent.app/PlugIns
+          zip -qry iTorrent-sem-anuncios-sem-widget.ipa Payload
+          ls -lh iTorrent-sem-anuncios-sem-widget.ipa
 
       - name: Disponibilizar IPA para download
         uses: actions/upload-artifact@v4
         with:
           name: iTorrent-sem-anuncios
-          path: ${{ runner.temp }}/ipa/iTorrent-sem-anuncios.ipa
+          path: |
+            ${{ runner.temp }}/ipa/iTorrent-sem-anuncios.ipa
+            ${{ runner.temp }}/ipa/iTorrent-sem-anuncios-sem-widget.ipa
           retention-days: 30
 
       - name: Publicar como Release (download direto no iPhone)
@@ -113,4 +119,6 @@ jobs:
           tag_name: sem-anuncios-${{ github.run_number }}
           name: iTorrent sem anuncios (build ${{ github.run_number }})
           body: IPA nao assinado, sem SDK de anuncios e sem Firebase. Instalar pelo AltStore > My Apps > +.
-          files: ${{ runner.temp }}/ipa/iTorrent-sem-anuncios.ipa
+          files: |
+            ${{ runner.temp }}/ipa/iTorrent-sem-anuncios.ipa
+            ${{ runner.temp }}/ipa/iTorrent-sem-anuncios-sem-widget.ipa
