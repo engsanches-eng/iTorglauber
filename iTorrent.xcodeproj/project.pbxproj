@@ -1759,6 +1759,7 @@
 				de,
 				it,
 				pl,
+				"pt-BR",
 			);
 			mainGroup = D1A226912AEEEFCC00669D6D;
 			packageReferences = (

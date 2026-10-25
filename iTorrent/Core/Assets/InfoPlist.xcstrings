@@ -8,6 +8,12 @@
             "state" : "translated",
             "value" : "BitTorrent Metadata"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metadados BitTorrent"
+          }
         }
       }
     },
@@ -26,6 +32,12 @@
             "state" : "translated",
             "value" : "iTorrent"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iTorrent"
+          }
         }
       }
     },
@@ -37,6 +49,12 @@
           "stringUnit" : {
             "state" : "new",
             "value" : "iTorrent uses the local network to discover playback devices and cast video on your network."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O iTorrent usa a rede local para encontrar dispositivos de reprodução e transmitir vídeos na sua rede."
           }
         }
       }

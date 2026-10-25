@@ -1,15 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "" : {
-
-    },
-    "-%@" : {
-
-    },
-    "%@" : {
-
-    },
+    "" : {},
+    "-%@" : {},
+    "%@" : {},
     "%@ of %@ (%@)" : {
       "localizations" : {
         "de" : {
@@ -52,6 +46,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ 的 %2$@ (%3$@)"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ de %2$@ (%3$@)"
           }
         }
       }
@@ -99,11 +99,24 @@
             "state" : "translated",
             "value" : "%1$lld / %2$lld 项"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld / %2$lld itens"
+          }
         }
       }
     },
     "Add Torrent" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar torrent"
+          }
+        }
+      }
     },
     "add.dismiss.message" : {
       "extractionState" : "manual",
@@ -148,6 +161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "所有未保存的更改将会丢失"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todas as alterações serão perdidas"
           }
         }
       }
@@ -196,6 +215,12 @@
             "state" : "translated",
             "value" : "你确定要丢弃吗？"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tem certeza de que deseja descartar?"
+          }
         }
       }
     },
@@ -241,6 +266,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hash: \"%@\" 的Torrent已存在于下载队列中"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O torrent com hash \"%@\" já está na fila de download"
           }
         }
       }
@@ -288,6 +319,12 @@
             "state" : "translated",
             "value" : "这个 Torrent 已存在"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este torrent já existe"
+          }
         }
       }
     },
@@ -333,6 +370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "管理..."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gerenciar..."
           }
         }
       }
@@ -380,11 +423,24 @@
             "state" : "translated",
             "value" : "选择储存"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecionar armazenamento"
+          }
         }
       }
     },
     "AirPlay" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AirPlay"
+          }
+        }
+      }
     },
     "Audio" : {
       "localizations" : {
@@ -428,6 +484,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "音频"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Áudio"
           }
         }
       }
@@ -475,6 +537,12 @@
             "state" : "translated",
             "value" : "添加"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar"
+          }
         }
       }
     },
@@ -520,6 +588,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "All"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todos"
           }
         }
       }
@@ -567,6 +641,12 @@
             "state" : "translated",
             "value" : "取消"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
         }
       }
     },
@@ -612,6 +692,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "关闭"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fechar"
           }
         }
       }
@@ -659,6 +745,12 @@
             "state" : "translated",
             "value" : "继续"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Continuar"
+          }
         }
       }
     },
@@ -704,6 +796,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apagar"
           }
         }
       }
@@ -752,6 +850,12 @@
             "state" : "translated",
             "value" : "丢弃"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descartar"
+          }
         }
       }
     },
@@ -797,6 +901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "启用"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ativar"
           }
         }
       }
@@ -844,6 +954,12 @@
             "state" : "translated",
             "value" : "错误"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erro"
+          }
         }
       }
     },
@@ -889,6 +1005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "登录"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usuário"
           }
         }
       }
@@ -936,6 +1058,12 @@
             "state" : "translated",
             "value" : "否"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não"
+          }
         }
       }
     },
@@ -981,6 +1109,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "确定"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       }
@@ -1028,6 +1162,12 @@
             "state" : "translated",
             "value" : "打开"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir"
+          }
         }
       }
     },
@@ -1073,6 +1213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "可选择"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opcional"
           }
         }
       }
@@ -1120,6 +1266,12 @@
             "state" : "translated",
             "value" : "密码"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Senha"
+          }
         }
       }
     },
@@ -1165,6 +1317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "端口"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porta"
           }
         }
       }
@@ -1212,6 +1370,12 @@
             "state" : "translated",
             "value" : "移除"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remover"
+          }
         }
       }
     },
@@ -1257,6 +1421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "重置"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Redefinir"
           }
         }
       }
@@ -1304,6 +1474,12 @@
             "state" : "translated",
             "value" : "搜索"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar"
+          }
         }
       }
     },
@@ -1349,6 +1525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "分享"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartilhar"
           }
         }
       }
@@ -1396,14 +1578,34 @@
             "state" : "translated",
             "value" : "是"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sim"
+          }
         }
       }
     },
     "Delete Keeping Files" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apagar e manter arquivos"
+          }
+        }
+      }
     },
     "Delete With Files" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apagar com os arquivos"
+          }
+        }
+      }
     },
     "details.actions" : {
       "localizations" : {
@@ -1447,6 +1649,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "操作"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ações"
           }
         }
       }
@@ -1494,6 +1702,12 @@
             "state" : "translated",
             "value" : "文件"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arquivos"
+          }
         }
       }
     },
@@ -1536,6 +1750,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trackers"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trackers"
@@ -1586,6 +1806,12 @@
             "state" : "translated",
             "value" : "评论已复制到剪贴板"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comentário copiado"
+          }
         }
       }
     },
@@ -1631,6 +1857,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "创建者复制到剪贴板"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criador copiado"
           }
         }
       }
@@ -1678,6 +1910,12 @@
             "state" : "translated",
             "value" : "Hash已复制到剪贴板"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash copiado"
+          }
         }
       }
     },
@@ -1723,6 +1961,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hash v2 已复制到剪贴板"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash v2 copiado"
           }
         }
       }
@@ -1770,6 +2014,12 @@
             "state" : "translated",
             "value" : "下载中"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download"
+          }
         }
       }
     },
@@ -1815,6 +2065,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "优先级"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prioridades"
           }
         }
       }
@@ -1862,6 +2118,12 @@
             "state" : "translated",
             "value" : "首个和末个"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Primeira e última partes"
+          }
         }
       }
     },
@@ -1907,6 +2169,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "进度"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Progresso"
           }
         }
       }
@@ -1954,6 +2222,12 @@
             "state" : "translated",
             "value" : "顺序下载"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download sequencial"
+          }
         }
       }
     },
@@ -1999,6 +2273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "媒体播放器"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Player de mídia"
           }
         }
       }
@@ -2046,6 +2326,12 @@
             "state" : "translated",
             "value" : "在 VLC Player 中打开"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir no player VLC"
+          }
         }
       }
     },
@@ -2091,6 +2377,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "预览模式"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo de visualização"
           }
         }
       }
@@ -2138,6 +2430,12 @@
             "state" : "translated",
             "value" : "快速预览"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visualização rápida"
+          }
         }
       }
     },
@@ -2183,6 +2481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VLC Player"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Player VLC"
           }
         }
       }
@@ -2230,6 +2534,12 @@
             "state" : "translated",
             "value" : "基本信息"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informações principais"
+          }
         }
       }
     },
@@ -2275,6 +2585,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加时间"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionado"
           }
         }
       }
@@ -2322,6 +2638,12 @@
             "state" : "translated",
             "value" : "评论"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comentário"
+          }
         }
       }
     },
@@ -2367,6 +2689,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "创建时间"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criado"
           }
         }
       }
@@ -2414,6 +2742,12 @@
             "state" : "translated",
             "value" : "创建者"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criador"
+          }
         }
       }
     },
@@ -2456,6 +2790,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hash"
@@ -2506,6 +2846,12 @@
             "state" : "translated",
             "value" : "Hash v2"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash v2"
+          }
         }
       }
     },
@@ -2551,6 +2897,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "私有"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privado"
           }
         }
       }
@@ -2598,6 +2950,12 @@
             "state" : "translated",
             "value" : "储存"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Armazenamento"
+          }
         }
       }
     },
@@ -2643,6 +3001,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "当前的"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atual"
           }
         }
       }
@@ -2690,6 +3054,12 @@
             "state" : "translated",
             "value" : "暂停"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausar"
+          }
         }
       }
     },
@@ -2735,6 +3105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "储存不存在"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Armazenamento não encontrado"
           }
         }
       }
@@ -2782,6 +3158,12 @@
             "state" : "translated",
             "value" : "iTorrent 将尝试寻找丢失的存储"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O iTorrent tentará localizar o armazenamento ausente"
+          }
         }
       }
     },
@@ -2827,6 +3209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "刷新储存"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualizar armazenamento"
           }
         }
       }
@@ -2874,6 +3262,12 @@
             "state" : "translated",
             "value" : "刷新"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reverificar"
+          }
         }
       }
     },
@@ -2919,6 +3313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "刷新"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reverificar"
           }
         }
       }
@@ -2966,6 +3366,12 @@
             "state" : "translated",
             "value" : "此操作将重新检查所有下载文件的状态"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta ação vai verificar novamente o estado de todos os arquivos baixados"
+          }
         }
       }
     },
@@ -3011,6 +3417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "重新检查 Torrent"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reverificar torrent"
           }
         }
       }
@@ -3058,6 +3470,12 @@
             "state" : "translated",
             "value" : "磁力链接"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link magnet"
+          }
         }
       }
     },
@@ -3103,6 +3521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "磁力链接已拷贝到剪贴板"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Link magnet copiado"
           }
         }
       }
@@ -3150,6 +3574,12 @@
             "state" : "translated",
             "value" : "Torrent文件"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arquivo torrent"
+          }
         }
       }
     },
@@ -3195,6 +3625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "速度"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velocidade"
           }
         }
       }
@@ -3242,6 +3678,12 @@
             "state" : "translated",
             "value" : "下载"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download"
+          }
         }
       }
     },
@@ -3287,6 +3729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "剩余时间"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tempo restante"
           }
         }
       }
@@ -3334,6 +3782,12 @@
             "state" : "translated",
             "value" : "上传"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload"
+          }
         }
       }
     },
@@ -3379,6 +3833,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "开始"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iniciar"
           }
         }
       }
@@ -3426,6 +3886,12 @@
             "state" : "translated",
             "value" : "状态"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado"
+          }
         }
       }
     },
@@ -3471,6 +3937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "传输"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transferência"
           }
         }
       }
@@ -3518,6 +3990,12 @@
             "state" : "translated",
             "value" : "已完成"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concluído"
+          }
         }
       }
     },
@@ -3563,6 +4041,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已下载"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baixado"
           }
         }
       }
@@ -3610,6 +4094,12 @@
             "state" : "translated",
             "value" : "正在下载"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leechers"
+          }
         }
       }
     },
@@ -3655,6 +4145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已选择进度/全部进度"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Progresso selecionado/total"
           }
         }
       }
@@ -3702,6 +4198,12 @@
             "state" : "translated",
             "value" : "做种数"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seeders"
+          }
         }
       }
     },
@@ -3747,6 +4249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已选择/全部"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecionado/total"
           }
         }
       }
@@ -3794,11 +4302,24 @@
             "state" : "translated",
             "value" : "已上传"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enviado"
+          }
         }
       }
     },
     "Dict: %@" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dicionário: %@"
+          }
+        }
+      }
     },
     "Displaying via AirPlay" : {
       "localizations" : {
@@ -3842,6 +4363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在通过 AirPlay 播放"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exibindo via AirPlay"
           }
         }
       }
@@ -3889,6 +4416,12 @@
             "state" : "translated",
             "value" : "禁用"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desativar"
+          }
         }
       }
     },
@@ -3934,6 +4467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "启用"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permitir"
           }
         }
       }
@@ -3981,6 +4520,12 @@
             "state" : "translated",
             "value" : "要求"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exigir"
+          }
         }
       }
     },
@@ -4026,6 +4571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "退出"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sair"
           }
         }
       }
@@ -4073,6 +4624,12 @@
             "state" : "translated",
             "value" : "您需要更新APP"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você precisa atualizar o app"
+          }
         }
       }
     },
@@ -4118,6 +4675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "当前版本已过期"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta versão expirou"
           }
         }
       }
@@ -4165,6 +4728,12 @@
             "state" : "translated",
             "value" : "更新"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualizar"
+          }
         }
       }
     },
@@ -4210,6 +4779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "打开"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir"
           }
         }
       }
@@ -4257,6 +4832,12 @@
             "state" : "translated",
             "value" : "分享"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartilhar"
+          }
         }
       }
     },
@@ -4303,11 +4884,24 @@
             "state" : "translated",
             "value" : "在“文件”中显示"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar no app Arquivos"
+          }
         }
       }
     },
     "Files" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arquivos"
+          }
+        }
+      }
     },
     "For AirPlay-compatible devices, use system Screen Mirroring" : {
       "localizations" : {
@@ -4352,11 +4946,24 @@
             "state" : "translated",
             "value" : "对于兼容 AirPlay 的设备，请使用系统的“屏幕镜像”"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para dispositivos compatíveis com AirPlay, use o Espelhamento de Tela do sistema"
+          }
         }
       }
     },
     "General" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geral"
+          }
+        }
+      }
     },
     "initialSetup.cellular.allowCheck.confirm" : {
       "localizations" : {
@@ -4400,6 +5007,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "I know the risks"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conheço os riscos"
           }
         }
       }
@@ -4447,6 +5060,12 @@
             "state" : "needs_review",
             "value" : "Allow Cellular Connection"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permitir conexão por dados móveis"
+          }
         }
       }
     },
@@ -4492,6 +5111,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Allow Cellular Usage"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permitir dados móveis"
           }
         }
       }
@@ -4539,6 +5164,12 @@
             "state" : "needs_review",
             "value" : "Do Not Allow Cellular"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não permitir dados móveis"
+          }
         }
       }
     },
@@ -4584,6 +5215,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "By default iTorrent prefers not to allow cellular usage because of most cellular plans does not support unlimited download and / or upload trafic.\n\nYou can always change this setting in application preferences."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Por padrão, o iTorrent não usa dados móveis, porque a maioria dos planos não oferece tráfego ilimitado de download e/ou upload.\n\nVocê pode mudar essa opção a qualquer momento nos ajustes do app."
           }
         }
       }
@@ -4631,6 +5268,12 @@
             "state" : "needs_review",
             "value" : "Allow Cellular Usage"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permitir dados móveis"
+          }
         }
       }
     },
@@ -4676,6 +5319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "需要停止的Torrent的Hash"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash do torrent que deve ser pausado"
           }
         }
       }
@@ -4723,6 +5372,12 @@
             "state" : "translated",
             "value" : "Torrent hash"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hash do torrent"
+          }
         }
       }
     },
@@ -4769,6 +5424,12 @@
             "state" : "translated",
             "value" : "暂停Torrent"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausar torrent"
+          }
         }
       }
     },
@@ -4811,6 +5472,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iTorrent"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "iTorrent"
@@ -4861,6 +5528,12 @@
             "state" : "translated",
             "value" : "文件"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arquivos"
+          }
         }
       }
     },
@@ -4906,6 +5579,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "磁力链接"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magnet"
           }
         }
       }
@@ -4953,6 +5632,12 @@
             "state" : "translated",
             "value" : "磁力链接无效"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O link magnet não é válido"
+          }
         }
       }
     },
@@ -4998,6 +5683,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请在下面输入磁力链接"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cole o link magnet abaixo"
           }
         }
       }
@@ -5045,6 +5736,12 @@
             "state" : "translated",
             "value" : "Magnet:"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "magnet:"
+          }
         }
       }
     },
@@ -5090,6 +5787,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "从磁力链接添加"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar por magnet"
           }
         }
       }
@@ -5137,6 +5840,12 @@
             "state" : "translated",
             "value" : "从……添加"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar de"
+          }
         }
       }
     },
@@ -5179,6 +5888,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "URL"
@@ -5229,6 +5944,12 @@
             "state" : "translated",
             "value" : "Torrent文件链接无效"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O link do torrent não é válido"
+          }
         }
       }
     },
@@ -5274,6 +5995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "此 Tracker 需要已登录的浏览器会话。请在浏览器中打开链接，下载 .torrent 文件，然后共享到 iTorrent。"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este tracker exige login no navegador. Abra o link no navegador, baixe o arquivo .torrent e compartilhe-o com o iTorrent."
           }
         }
       }
@@ -5321,6 +6048,12 @@
             "state" : "translated",
             "value" : "Torrent 请求失败，HTTP 状态码为 %ld。请尝试在浏览器中打开链接。"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A requisição do torrent falhou com o status HTTP %ld. Tente abrir o link no navegador."
+          }
         }
       }
     },
@@ -5366,6 +6099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "服务器未返回有效的 .torrent 文件。你可能需要先在浏览器中登录。"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O servidor não retornou um arquivo .torrent válido. Talvez seja preciso fazer login pelo navegador."
           }
         }
       }
@@ -5413,6 +6152,12 @@
             "state" : "translated",
             "value" : "请在下面输入现有的 Torrent URL"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cole o link do torrent abaixo"
+          }
         }
       }
     },
@@ -5459,6 +6204,12 @@
             "state" : "translated",
             "value" : "在浏览器中打开"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir no navegador"
+          }
         }
       }
     },
@@ -5501,6 +6252,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "https://"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "https://"
@@ -5551,6 +6308,12 @@
             "state" : "translated",
             "value" : "通过URL添加"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar por URL"
+          }
         }
       }
     },
@@ -5596,6 +6359,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Try to disable this filter or select another one"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desative este filtro ou escolha outro"
           }
         }
       }
@@ -5643,6 +6412,12 @@
             "state" : "needs_review",
             "value" : "No torrents for filter “%1$@”"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum torrent no filtro “%1$@”"
+          }
         }
       }
     },
@@ -5688,6 +6463,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要添加新的Torrent，您可以点击左下角的“+”图标，也可以直接从“文件”APP或浏览器打开Torrent文件"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Para adicionar torrents, toque no ícone '+' no canto inferior esquerdo ou abra um arquivo torrent direto pelo app Arquivos ou pelo navegador"
           }
         }
       }
@@ -5735,6 +6516,12 @@
             "state" : "translated",
             "value" : "欢迎使用iTorrent"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bem-vindo ao iTorrent"
+          }
         }
       }
     },
@@ -5780,6 +6567,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Select All"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Selecionar tudo"
           }
         }
       }
@@ -5827,6 +6620,12 @@
             "state" : "translated",
             "value" : "排序"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordenação"
+          }
         }
       }
     },
@@ -5872,6 +6671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加日期"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data de adição"
           }
         }
       }
@@ -5919,6 +6724,12 @@
             "state" : "translated",
             "value" : "创建日期"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data de criação"
+          }
         }
       }
     },
@@ -5964,6 +6775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "按状态分组"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Agrupar por estado"
           }
         }
       }
@@ -6011,6 +6828,12 @@
             "state" : "translated",
             "value" : "名字"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nome"
+          }
         }
       }
     },
@@ -6057,6 +6880,12 @@
             "state" : "translated",
             "value" : "大小"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamanho"
+          }
         }
       }
     },
@@ -6102,6 +6931,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Torrent排序方法:"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordenar torrents por:"
           }
         }
       }
@@ -6150,6 +6985,12 @@
             "state" : "translated",
             "value" : "音频"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Áudio"
+          }
         }
       }
     },
@@ -6196,6 +7037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "计算中……"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Calculando..."
           }
         }
       }
@@ -6244,6 +7091,12 @@
             "state" : "translated",
             "value" : "文档"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Documentos"
+          }
         }
       }
     },
@@ -6290,6 +7143,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "空闲"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Livre"
           }
         }
       }
@@ -6338,6 +7197,12 @@
             "state" : "translated",
             "value" : "图片"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Imagens"
+          }
         }
       }
     },
@@ -6384,6 +7249,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "其它"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Outros"
           }
         }
       }
@@ -6432,6 +7303,12 @@
             "state" : "translated",
             "value" : "视频"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vídeo"
+          }
         }
       }
     },
@@ -6477,6 +7354,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未找到“%@”的相关结果"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum resultado para “%@”"
           }
         }
       }
@@ -6524,6 +7407,12 @@
             "state" : "translated",
             "value" : "%@ 下载已完成"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download de %@ concluído"
+          }
         }
       }
     },
@@ -6569,6 +7458,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "下载完成"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download concluído"
           }
         }
       }
@@ -6616,6 +7511,12 @@
             "state" : "translated",
             "value" : "RSS更新"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualizações de RSS"
+          }
         }
       }
     },
@@ -6661,6 +7562,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Click here to open preferences"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toque aqui para abrir os ajustes"
           }
         }
       }
@@ -6708,6 +7615,12 @@
             "state" : "needs_review",
             "value" : "Cellular collection is not allowed"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uso de dados móveis não permitido"
+          }
         }
       }
     },
@@ -6753,6 +7666,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "关联Patreon账号"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectar ao Patreon"
           }
         }
       }
@@ -6800,6 +7719,12 @@
             "state" : "translated",
             "value" : "成为捐赠者"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Torne-se um apoiador"
+          }
         }
       }
     },
@@ -6845,6 +7770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "取消关联"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desvincular"
           }
         }
       }
@@ -6892,6 +7823,12 @@
             "state" : "translated",
             "value" : "取消关联Patreon账号"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desvincular conta do Patreon"
+          }
         }
       }
     },
@@ -6937,6 +7874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "您确定要取消关联Patreon账号吗？"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tem certeza de que deseja desvincular sua conta do Patreon?"
           }
         }
       }
@@ -6984,6 +7927,12 @@
             "state" : "translated",
             "value" : "iTorrent的作者"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criador do iTorrent"
+          }
         }
       }
     },
@@ -7030,6 +7979,12 @@
             "state" : "translated",
             "value" : "大家好，\n\n您可以通过在Patreon上向我捐赠来支持iTorrent的未来发展。作为回报，你将可以获得无广告版本的iTorrent。\n\n感谢你的支持！"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Olá a todos,\n\nVocê pode apoiar o desenvolvimento do iTorrent com uma doação no Patreon. Em troca, recebe acesso à versão sem anúncios do app.\n\nObrigado por todo o apoio!"
+          }
         }
       }
     },
@@ -7072,6 +8027,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "XITRIX (Daniil Vinogradov)"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "XITRIX (Daniil Vinogradov)"
@@ -7122,6 +8083,12 @@
             "state" : "translated",
             "value" : "无法获取凭据"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sem credenciais."
+          }
         }
       }
     },
@@ -7167,6 +8134,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "没有关联到Patreon账号"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhuma conta do Patreon conectada."
           }
         }
       }
@@ -7214,6 +8187,12 @@
             "state" : "translated",
             "value" : "账号Token无效"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Token de acesso inválido."
+          }
         }
       }
     },
@@ -7259,6 +8238,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "发生了未知错误"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ocorreu um erro desconhecido."
           }
         }
       }
@@ -7306,6 +8291,12 @@
             "state" : "translated",
             "value" : "无广告已启用，玩得开心！"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sem anúncios ativado, aproveite!"
+          }
         }
       }
     },
@@ -7351,6 +8342,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你有完整版"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você tem a versão completa"
           }
         }
       }
@@ -7398,11 +8395,24 @@
             "state" : "translated",
             "value" : "你是捐赠者"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você é um apoiador"
+          }
         }
       }
     },
     "Peers" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peers"
+          }
+        }
+      }
     },
     "Play on" : {
       "localizations" : {
@@ -7446,6 +8456,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "在以下设备上播放"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reproduzir em"
           }
         }
       }
@@ -7492,6 +8508,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "播放速度"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velocidade de reprodução"
           }
         }
       }
@@ -7540,6 +8562,12 @@
             "state" : "translated",
             "value" : "已连接到 %@"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectado a %@"
+          }
         }
       }
     },
@@ -7585,6 +8613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在连接到 %@…"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conectando a %@…"
           }
         }
       }
@@ -7632,6 +8666,12 @@
             "state" : "translated",
             "value" : "无法启动 VLC 渲染器发现"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não foi possível iniciar a busca de dispositivos VLC"
+          }
         }
       }
     },
@@ -7678,6 +8718,12 @@
             "state" : "translated",
             "value" : "没有可用的 VLC 渲染器发现服务"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum método de busca de dispositivos VLC disponível"
+          }
         }
       }
     },
@@ -7723,6 +8769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无法启动渲染器播放"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não foi possível iniciar a reprodução no dispositivo"
           }
         }
       }
@@ -7771,6 +8823,12 @@
             "state" : "translated",
             "value" : "正在本设备上播放"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reproduzindo neste dispositivo"
+          }
         }
       }
     },
@@ -7816,6 +8874,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在返回本设备…"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voltando para este dispositivo…"
           }
         }
       }
@@ -7863,6 +8927,12 @@
             "state" : "translated",
             "value" : "设置"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
+          }
         }
       }
     },
@@ -7908,6 +8978,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "外观"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aparência"
           }
         }
       }
@@ -7955,6 +9031,12 @@
             "state" : "translated",
             "value" : "分组与排序"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordem de agrupamento das seções"
+          }
         }
       }
     },
@@ -8000,6 +9082,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "应用主题"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tema do app"
           }
         }
       }
@@ -8047,6 +9135,12 @@
             "state" : "translated",
             "value" : "选择APP主题"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolher tema do app"
+          }
         }
       }
     },
@@ -8092,6 +9186,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "深色"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escuro"
           }
         }
       }
@@ -8139,6 +9239,12 @@
             "state" : "translated",
             "value" : "浅色"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Claro"
+          }
         }
       }
     },
@@ -8184,6 +9290,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "跟随系统"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sistema"
           }
         }
       }
@@ -8231,6 +9343,12 @@
             "state" : "translated",
             "value" : "后台下载"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download em segundo plano"
+          }
         }
       }
     },
@@ -8276,6 +9394,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "启用"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ativar"
           }
         }
       }
@@ -8323,6 +9447,12 @@
             "state" : "translated",
             "value" : "显示位置状态指示灯"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mostrar indicador de localização"
+          }
         }
       }
     },
@@ -8368,6 +9498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "后台模式"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo em segundo plano"
           }
         }
       }
@@ -8415,6 +9551,12 @@
             "state" : "translated",
             "value" : "选择后台模式"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolher modo em segundo plano"
+          }
         }
       }
     },
@@ -8460,6 +9602,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "音频"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Áudio"
           }
         }
       }
@@ -8507,6 +9655,12 @@
             "state" : "translated",
             "value" : "位置"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Localização"
+          }
         }
       }
     },
@@ -8553,6 +9707,12 @@
             "state" : "translated",
             "value" : "捐赠甜甜圈"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Doações"
+          }
         }
       }
     },
@@ -8595,6 +9755,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Patreon"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Patreon"
@@ -8645,6 +9811,12 @@
             "state" : "translated",
             "value" : "网络"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rede"
+          }
         }
       }
     },
@@ -8690,6 +9862,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "连接设置"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes de conexão"
           }
         }
       }
@@ -8737,6 +9915,12 @@
             "state" : "translated",
             "value" : "加密"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Criptografia"
+          }
         }
       }
     },
@@ -8782,6 +9966,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "模式"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Modo"
           }
         }
       }
@@ -8829,6 +10019,12 @@
             "state" : "translated",
             "value" : "选择加密模式"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolher modo de criptografia"
+          }
         }
       }
     },
@@ -8874,6 +10070,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Validate HTTPS trackers"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Validar trackers HTTPS"
           }
         }
       }
@@ -8921,6 +10123,12 @@
             "state" : "translated",
             "value" : "使用默认端口"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usar porta padrão"
+          }
         }
       }
     },
@@ -8966,6 +10174,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "重试次数"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faixa de tentativas"
           }
         }
       }
@@ -9013,6 +10227,12 @@
             "state" : "translated",
             "value" : "自定义端口"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Porta personalizada"
+          }
         }
       }
     },
@@ -9058,6 +10278,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "连接协议"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protocolos de conexão"
           }
         }
       }
@@ -9105,6 +10331,12 @@
             "state" : "translated",
             "value" : "启用DHT"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ativar DHT"
+          }
         }
       }
     },
@@ -9150,6 +10382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "启用LSD"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ativar LSD"
           }
         }
       }
@@ -9197,6 +10435,12 @@
             "state" : "translated",
             "value" : "启用µTP"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ativar µTP"
+          }
         }
       }
     },
@@ -9242,6 +10486,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "启用UPnP"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ativar UPnP"
           }
         }
       }
@@ -9289,6 +10539,12 @@
             "state" : "translated",
             "value" : "启用NAT-PMP"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ativar NAT-PMP"
+          }
         }
       }
     },
@@ -9334,6 +10590,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "接口"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interfaces"
           }
         }
       }
@@ -9381,6 +10643,12 @@
             "state" : "translated",
             "value" : "并行连接"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Conexão paralela"
+          }
         }
       }
     },
@@ -9426,6 +10694,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "蜂窝网络"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dados móveis"
           }
         }
       }
@@ -9473,6 +10747,12 @@
             "state" : "translated",
             "value" : "并行连接可以提高下载速度，但在使用VPN时会暴露您的IP地址"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A conexão paralela pode aumentar a velocidade de download, mas expõe seu endereço IP se você usar VPN."
+          }
         }
       }
     },
@@ -9518,6 +10798,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "代理"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proxy"
           }
         }
       }
@@ -9565,6 +10851,12 @@
             "state" : "translated",
             "value" : "认证"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autenticação"
+          }
         }
       }
     },
@@ -9610,6 +10902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "需要认证"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exige autenticação"
           }
         }
       }
@@ -9657,6 +10955,12 @@
             "state" : "translated",
             "value" : "Host"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Servidor"
+          }
         }
       }
     },
@@ -9702,6 +11006,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "主机名"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Endereço"
           }
         }
       }
@@ -9749,6 +11059,12 @@
             "state" : "translated",
             "value" : "代理类型"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tipo de proxy"
+          }
         }
       }
     },
@@ -9794,6 +11110,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "选择代理类型"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Escolher tipo de proxy"
           }
         }
       }
@@ -9841,6 +11163,12 @@
             "state" : "translated",
             "value" : "Tracker源"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fontes de trackers"
+          }
         }
       }
     },
@@ -9886,6 +11214,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "通知"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificações"
           }
         }
       }
@@ -9933,6 +11267,12 @@
             "state" : "translated",
             "value" : "下载完成时"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ao concluir o download"
+          }
         }
       }
     },
@@ -9978,6 +11318,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Torrent队列限制"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limites da fila de torrents"
           }
         }
       }
@@ -10025,6 +11371,12 @@
             "state" : "translated",
             "value" : "活跃的Torrent"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Torrents ativos"
+          }
         }
       }
     },
@@ -10070,6 +11422,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "下载中的Torrent"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Torrents baixando"
           }
         }
       }
@@ -10117,6 +11475,12 @@
             "state" : "translated",
             "value" : "上传中的Torrent"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Torrents enviando"
+          }
         }
       }
     },
@@ -10162,6 +11526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "做种"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semeadura"
           }
         }
       }
@@ -10209,6 +11579,12 @@
             "state" : "translated",
             "value" : "下载完成后停止"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parar ao concluir o download"
+          }
         }
       }
     },
@@ -10254,6 +11630,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "文件共享"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartilhamento de arquivos"
           }
         }
       }
@@ -10301,6 +11683,12 @@
             "state" : "translated",
             "value" : "认证"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autenticação"
+          }
         }
       }
     },
@@ -10346,6 +11734,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "WebDav服务器"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Servidor WebDAV"
           }
         }
       }
@@ -10393,6 +11787,12 @@
             "state" : "translated",
             "value" : "使用WebDav客户端连接iTorrent"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use um cliente WebDAV para se conectar ao iTorrent"
+          }
         }
       }
     },
@@ -10438,6 +11838,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Web服务器"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Servidor web"
           }
         }
       }
@@ -10485,6 +11891,12 @@
             "state" : "translated",
             "value" : "使用任意浏览器访问共享文件"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use qualquer navegador para compartilhar arquivos"
+          }
         }
       }
     },
@@ -10530,6 +11942,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "速度限制"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Limites de velocidade"
           }
         }
       }
@@ -10577,6 +11995,12 @@
             "state" : "translated",
             "value" : "下载限速"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velocidade máx. de download"
+          }
         }
       }
     },
@@ -10622,6 +12046,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "速度（KB/s）"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velocidade em KB/s"
           }
         }
       }
@@ -10669,6 +12099,12 @@
             "state" : "translated",
             "value" : "无限制"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ilimitada"
+          }
         }
       }
     },
@@ -10714,6 +12150,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "上传限速"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velocidade máx. de upload"
           }
         }
       }
@@ -10761,6 +12203,12 @@
             "state" : "translated",
             "value" : "储存"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Armazenamento"
+          }
         }
       }
     },
@@ -10806,6 +12254,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加……"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar..."
           }
         }
       }
@@ -10853,6 +12307,12 @@
             "state" : "translated",
             "value" : "所选路径不是一个目录"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O caminho selecionado não é uma pasta"
+          }
         }
       }
     },
@@ -10898,6 +12358,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "预分配空间"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pré-alocar espaço"
           }
         }
       }
@@ -10945,6 +12411,12 @@
             "state" : "translated",
             "value" : "可用"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponível"
+          }
         }
       }
     },
@@ -10990,6 +12462,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "如果移除这个存储，则将无法通过iTorrent访问与之相关的所有Torrent"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se você remover este armazenamento, todos os torrents ligados a ele ficarão inacessíveis no iTorrent"
           }
         }
       }
@@ -11037,6 +12515,12 @@
             "state" : "translated",
             "value" : "移除储存"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remover armazenamento"
+          }
         }
       }
     },
@@ -11082,6 +12566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "储存"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Armazenamentos"
           }
         }
       }
@@ -11129,6 +12619,12 @@
             "state" : "translated",
             "value" : "可用: %1$lld/%2$lld"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disponíveis: %1$lld/%2$lld"
+          }
         }
       }
     },
@@ -11174,6 +12670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我明白了，继续"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Entendi, continuar"
           }
         }
       }
@@ -11222,6 +12724,12 @@
             "state" : "translated",
             "value" : "如果使用外部储存，请在关闭iTorrent后再将其弹出。否则，iTorrent将无法保证您下载的文件的安全，并且可能会破坏被弹出的储存中Torrent的状态。"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se usar unidades externas, só as ejete depois de fechar o iTorrent. Caso contrário, o iTorrent não consegue garantir a integridade dos arquivos baixados e pode corromper o estado dos torrents da unidade ejetada."
+          }
         }
       }
     },
@@ -11267,6 +12775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "警告！"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ATENÇÃO!"
           }
         }
       }
@@ -11314,6 +12828,12 @@
             "state" : "translated",
             "value" : "添加Tracker列表"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar lista de trackers"
+          }
         }
       }
     },
@@ -11359,6 +12879,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "标题"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Título"
           }
         }
       }
@@ -11406,6 +12932,12 @@
             "state" : "translated",
             "value" : "Tracker列表文件源的URL"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL do arquivo de trackers"
+          }
         }
       }
     },
@@ -11451,6 +12983,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "启用自动添加"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar automaticamente"
           }
         }
       }
@@ -11498,6 +13036,12 @@
             "state" : "translated",
             "value" : "自动将所有 Tracker 添加到新建的公开 Torrent。私有 Torrent 不会添加。"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adiciona todos os trackers automaticamente aos novos torrents públicos. Torrents privados ficam de fora."
+          }
         }
       }
     },
@@ -11543,6 +13087,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "点击 «+» 按钮添加Tracker列表源URL"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicione a URL de uma lista de trackers tocando em «+»"
           }
         }
       }
@@ -11590,6 +13140,12 @@
             "state" : "translated",
             "value" : "Tracker列表源为空"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A lista de fontes de trackers está vazia"
+          }
         }
       }
     },
@@ -11635,6 +13191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "此Tracker源已添加"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Esta fonte de trackers já foi adicionada"
           }
         }
       }
@@ -11682,6 +13244,12 @@
             "state" : "translated",
             "value" : "您确定要删除此Tracker源吗？"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deseja remover esta fonte de trackers?"
+          }
         }
       }
     },
@@ -11727,6 +13295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除源"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remover fonte"
           }
         }
       }
@@ -11774,6 +13348,12 @@
             "state" : "translated",
             "value" : "重命名源"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Renomear fonte"
+          }
         }
       }
     },
@@ -11819,6 +13399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "版本"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Versão"
           }
         }
       }
@@ -11866,11 +13452,24 @@
             "state" : "translated",
             "value" : "GitHub page"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Página no GitHub"
+          }
         }
       }
     },
     "Primary Info" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informações principais"
+          }
+        }
+      }
     },
     "prioriry.change.title" : {
       "localizations" : {
@@ -11914,6 +13513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更改优先级"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alterar prioridade"
           }
         }
       }
@@ -11961,6 +13566,12 @@
             "state" : "translated",
             "value" : "默认"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
         }
       }
     },
@@ -12006,6 +13617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "不下载"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não baixar"
           }
         }
       }
@@ -12053,6 +13670,12 @@
             "state" : "translated",
             "value" : "低"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baixa"
+          }
         }
       }
     },
@@ -12099,6 +13722,12 @@
             "state" : "translated",
             "value" : "最高"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Máxima"
+          }
         }
       }
     },
@@ -12141,6 +13770,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "HTTP"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "HTTP"
@@ -12191,6 +13826,12 @@
             "state" : "translated",
             "value" : "I2P"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "I2P"
+          }
         }
       }
     },
@@ -12237,6 +13878,12 @@
             "state" : "translated",
             "value" : "不使用代理"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum"
+          }
         }
       }
     },
@@ -12279,6 +13926,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SOCKS4"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "SOCKS4"
@@ -12329,6 +13982,12 @@
             "state" : "translated",
             "value" : "SOCKS5"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "SOCKS5"
+          }
         }
       }
     },
@@ -12374,6 +14033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已添加"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Já adicionado"
           }
         }
       }
@@ -12421,6 +14086,12 @@
             "state" : "translated",
             "value" : "下载磁力"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baixar magnet"
+          }
         }
       }
     },
@@ -12466,6 +14137,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "下载"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baixar"
           }
         }
       }
@@ -12513,6 +14190,12 @@
             "state" : "needs_review",
             "value" : "Export All"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportar tudo"
+          }
         }
       }
     },
@@ -12558,6 +14241,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Export Selected"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exportar selecionados"
           }
         }
       }
@@ -12605,6 +14294,12 @@
             "state" : "needs_review",
             "value" : "Import"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importar"
+          }
         }
       }
     },
@@ -12650,6 +14345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "全部标记为已读"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Marcar tudo como lido"
           }
         }
       }
@@ -12697,6 +14398,12 @@
             "state" : "translated",
             "value" : "在Safari中打开"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abrir no Safari"
+          }
         }
       }
     },
@@ -12742,6 +14449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已读"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lido"
           }
         }
       }
@@ -12789,6 +14502,12 @@
             "state" : "translated",
             "value" : "未读"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não lido"
+          }
         }
       }
     },
@@ -12834,6 +14553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "RSS源"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feeds RSS"
           }
         }
       }
@@ -12881,6 +14606,12 @@
             "state" : "translated",
             "value" : "您可以通过单击此页面上的“编辑”按钮来添加RSS源"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você pode adicionar canais RSS editando esta página"
+          }
         }
       }
     },
@@ -12926,6 +14657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加RSS源"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar feed RSS"
           }
         }
       }
@@ -12973,6 +14710,12 @@
             "state" : "translated",
             "value" : "描述"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Descrição"
+          }
         }
       }
     },
@@ -13018,6 +14761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "标题"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Título"
           }
         }
       }
@@ -13065,6 +14814,12 @@
             "state" : "translated",
             "value" : "更新时通知"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notificar atualizações"
+          }
         }
       }
     },
@@ -13107,6 +14862,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL"
+          }
+        },
+        "pt-BR" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "URL"
@@ -13157,6 +14918,12 @@
             "state" : "translated",
             "value" : "URL已复制"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL copiada"
+          }
         }
       }
     },
@@ -13202,6 +14969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "您确定要移除所选的RSS源吗？"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tem certeza de que deseja remover os feeds RSS selecionados?"
           }
         }
       }
@@ -13249,6 +15022,12 @@
             "state" : "translated",
             "value" : "移除RSS源"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remover feeds RSS"
+          }
         }
       }
     },
@@ -13294,6 +15073,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请先添加RSS源"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicione canais RSS primeiro"
           }
         }
       }
@@ -13341,11 +15126,24 @@
             "state" : "translated",
             "value" : "没有RSS源"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum canal RSS"
+          }
         }
       }
     },
     "Search" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar"
+          }
+        }
+      }
     },
     "Searching…" : {
       "localizations" : {
@@ -13389,6 +15187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在搜索…"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscando…"
           }
         }
       }
@@ -13436,6 +15240,12 @@
             "state" : "translated",
             "value" : "字幕"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legendas"
+          }
         }
       }
     },
@@ -13481,6 +15291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "本设备"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Este dispositivo"
           }
         }
       }
@@ -13528,6 +15344,12 @@
             "state" : "translated",
             "value" : "天"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "d"
+          }
         }
       }
     },
@@ -13573,6 +15395,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "小时"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "h"
           }
         }
       }
@@ -13620,6 +15448,12 @@
             "state" : "translated",
             "value" : "永远"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Infinito"
+          }
         }
       }
     },
@@ -13665,6 +15499,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "分"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "min"
           }
         }
       }
@@ -13712,6 +15552,12 @@
             "state" : "translated",
             "value" : "月"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "mês"
+          }
         }
       }
     },
@@ -13757,6 +15603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "秒"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "s"
           }
         }
       }
@@ -13804,6 +15656,12 @@
             "state" : "translated",
             "value" : "周"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "sem"
+          }
         }
       }
     },
@@ -13849,6 +15707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "年"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "a"
           }
         }
       }
@@ -13896,6 +15760,12 @@
             "state" : "translated",
             "value" : "是，且移除数据"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sim, e apagar os dados"
+          }
         }
       }
     },
@@ -13941,6 +15811,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "是，但保留数据"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sim, mas manter os dados"
           }
         }
       }
@@ -13988,6 +15864,12 @@
             "state" : "translated",
             "value" : "您确定要移除吗"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tem certeza de que deseja remover"
+          }
         }
       }
     },
@@ -14033,6 +15915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "检查文件"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verificando arquivos"
           }
         }
       }
@@ -14080,6 +15968,12 @@
             "state" : "translated",
             "value" : "完成"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Concluído"
+          }
         }
       }
     },
@@ -14125,6 +16019,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "下载中"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baixando"
           }
         }
       }
@@ -14172,6 +16072,12 @@
             "state" : "translated",
             "value" : "获取元数据"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obtendo metadados"
+          }
         }
       }
     },
@@ -14217,6 +16123,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已暂停"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pausado"
           }
         }
       }
@@ -14264,6 +16176,12 @@
             "state" : "translated",
             "value" : "恢复中"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retomando"
+          }
         }
       }
     },
@@ -14309,6 +16227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "做种中"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semeando"
           }
         }
       }
@@ -14356,6 +16280,12 @@
             "state" : "translated",
             "value" : "存储错误"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erro de armazenamento"
+          }
         }
       }
     },
@@ -14401,6 +16331,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "下载: "
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leechers:"
           }
         }
       }
@@ -14448,6 +16384,12 @@
             "state" : "translated",
             "value" : "消息: %@"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mensagem: %@"
+          }
         }
       }
     },
@@ -14493,6 +16435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "N/A"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "N/D"
           }
         }
       }
@@ -14540,6 +16488,12 @@
             "state" : "translated",
             "value" : "用户: "
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peers:"
+          }
         }
       }
     },
@@ -14585,6 +16539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "做种: "
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seeders:"
           }
         }
       }
@@ -14632,6 +16592,12 @@
             "state" : "translated",
             "value" : "状态: "
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estado:"
+          }
         }
       }
     },
@@ -14677,6 +16643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "未联系"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não contatado"
           }
         }
       }
@@ -14724,6 +16696,12 @@
             "state" : "translated",
             "value" : "未工作"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Não funciona"
+          }
         }
       }
     },
@@ -14769,6 +16747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tracker错误"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erro no tracker"
           }
         }
       }
@@ -14816,6 +16800,12 @@
             "state" : "translated",
             "value" : "无法访问"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inacessível"
+          }
         }
       }
     },
@@ -14861,6 +16851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更新中"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atualizando"
           }
         }
       }
@@ -14908,11 +16904,24 @@
             "state" : "translated",
             "value" : "工作中"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Funcionando"
+          }
         }
       }
     },
     "Trackers" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trackers"
+          }
+        }
+      }
     },
     "trackers.action.copy" : {
       "localizations" : {
@@ -14956,6 +16965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tracker URL已复制到剪贴板！"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "URL do tracker copiada!"
           }
         }
       }
@@ -15003,6 +17018,12 @@
             "state" : "needs_review",
             "value" : "Add trackers"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar trackers"
+          }
         }
       }
     },
@@ -15048,6 +17069,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "From sources list"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Da lista de fontes"
           }
         }
       }
@@ -15095,6 +17122,12 @@
             "state" : "needs_review",
             "value" : "Import all"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Importar todos"
+          }
         }
       }
     },
@@ -15140,6 +17173,12 @@
           "stringUnit" : {
             "state" : "needs_review",
             "value" : "Manually"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manualmente"
           }
         }
       }
@@ -15187,6 +17226,12 @@
             "state" : "translated",
             "value" : "请输入Tracker URL，以空行分隔"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Digite as URLs dos trackers separadas por uma linha em branco"
+          }
         }
       }
     },
@@ -15232,6 +17277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "输入Tracker URL"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Digite a URL do tracker"
           }
         }
       }
@@ -15279,6 +17330,12 @@
             "state" : "translated",
             "value" : "添加Tracker"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar trackers"
+          }
         }
       }
     },
@@ -15324,6 +17381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加Tracker"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar tracker"
           }
         }
       }
@@ -15371,6 +17434,12 @@
             "state" : "translated",
             "value" : "您可以通过单击此页面上的“编辑”按钮来手动添加Tracker"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Você pode adicionar trackers manualmente editando esta página"
+          }
         }
       }
     },
@@ -15416,6 +17485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "没有Tracker"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum tracker"
           }
         }
       }
@@ -15463,6 +17538,12 @@
             "state" : "translated",
             "value" : "重新汇报所有"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reanunciar todos"
+          }
         }
       }
     },
@@ -15508,6 +17589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除Tracker"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remover trackers"
           }
         }
       }
@@ -15555,6 +17642,12 @@
             "state" : "translated",
             "value" : "您确定要移除所选的Tracker吗？"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tem certeza de que deseja remover os trackers selecionados?"
+          }
         }
       }
     },
@@ -15600,6 +17693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加Tracker源"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adicionar fonte"
           }
         }
       }
@@ -15647,6 +17746,12 @@
             "state" : "translated",
             "value" : "本地Tracker源"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fonte local"
+          }
         }
       }
     },
@@ -15693,11 +17798,24 @@
             "state" : "translated",
             "value" : "远程Tracker源"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fonte remota"
+          }
         }
       }
     },
     "Transfer" : {
-
+      "localizations" : {
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Transferência"
+          }
+        }
+      }
     },
     "Video" : {
       "localizations" : {
@@ -15741,6 +17859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "视频"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vídeo"
           }
         }
       }
@@ -15788,6 +17912,12 @@
             "state" : "translated",
             "value" : "VLC 渲染器输出"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saída de reprodução VLC"
+          }
         }
       }
     },
@@ -15833,6 +17963,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Web服务器不可用"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Servidor web indisponível"
           }
         }
       }
