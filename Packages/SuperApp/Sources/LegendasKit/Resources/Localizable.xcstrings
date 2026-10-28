@@ -9,6 +9,12 @@
             "state": "translated",
             "value": "%ld downloads left today"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%ld downloads restantes hoje"
+          }
         }
       }
     },
@@ -18,6 +24,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Searches use both languages. \"Best subtitle\" tries the primary language first, then the secondary."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A busca usa os dois idiomas. \"Melhor legenda\" tenta o primário e, se não houver, o secundário."
           }
         }
       }
@@ -29,6 +41,12 @@
             "state": "translated",
             "value": "OpenSubtitles rejected the API key. Check it in Settings."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A chave da API do OpenSubtitles foi recusada. Confira em Ajustes."
+          }
         }
       }
     },
@@ -38,6 +56,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Open Settings"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Abrir ajustes"
           }
         }
       }
@@ -49,6 +73,12 @@
             "state": "translated",
             "value": "Add folder…"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicionar pasta…"
+          }
         }
       }
     },
@@ -58,6 +88,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Add folders from the Files app: On My iPhone, iCloud Drive or a network server (SMB). Tap a video to find its subtitle; it is saved next to the video with the same name."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Adicione pastas do app Arquivos: No meu iPhone, iCloud Drive ou um servidor de rede (SMB). Toque num vídeo para buscar a legenda; ela é salva ao lado do vídeo, com o mesmo nome."
           }
         }
       }
@@ -69,6 +105,12 @@
             "state": "translated",
             "value": "Settings"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes"
+          }
         }
       }
     },
@@ -78,6 +120,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Subtitle settings"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ajustes de legenda"
           }
         }
       }
@@ -89,6 +137,12 @@
             "state": "translated",
             "value": "When tapping a video"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ao tocar no vídeo"
+          }
         }
       }
     },
@@ -98,6 +152,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Delete"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar"
           }
         }
       }
@@ -109,6 +169,12 @@
             "state": "translated",
             "value": "Delete this video's subtitle?"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar a legenda deste vídeo?"
+          }
         }
       }
     },
@@ -118,6 +184,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Delete subtitle"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Apagar legenda"
           }
         }
       }
@@ -129,6 +201,12 @@
             "state": "translated",
             "value": "Activate the Subtitles tab"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ativar a aba Legenda"
+          }
         }
       }
     },
@@ -138,6 +216,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Refresh"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Atualizar"
           }
         }
       }
@@ -149,6 +233,12 @@
             "state": "translated",
             "value": "Downloading subtitle…"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baixando legenda…"
+          }
         }
       }
     },
@@ -158,6 +248,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Downloading the video from iCloud… Try again in a moment."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baixando o vídeo do iCloud… Tente de novo em instantes."
           }
         }
       }
@@ -169,6 +265,12 @@
             "state": "translated",
             "value": "Download the best one"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baixar a melhor direto"
+          }
         }
       }
     },
@@ -178,6 +280,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Searching subtitles…"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscando legendas…"
           }
         }
       }
@@ -189,6 +297,12 @@
             "state": "translated",
             "value": "Search in %@"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar em %@"
+          }
         }
       }
     },
@@ -198,6 +312,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Search in another language"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar em outro idioma"
           }
         }
       }
@@ -209,6 +329,12 @@
             "state": "translated",
             "value": "Search in another language…"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar em outro idioma…"
+          }
         }
       }
     },
@@ -218,6 +344,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Search language"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Buscar idioma"
           }
         }
       }
@@ -229,6 +361,12 @@
             "state": "translated",
             "value": "Cancel"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancelar"
+          }
         }
       }
     },
@@ -238,6 +376,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "API key"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chave da API"
           }
         }
       }
@@ -249,6 +393,12 @@
             "state": "translated",
             "value": "Key unlocked. You can search subtitles now."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Chave liberada. Já dá para buscar legendas."
+          }
         }
       }
     },
@@ -258,6 +408,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Behavior"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Comportamento"
           }
         }
       }
@@ -269,6 +425,12 @@
             "state": "translated",
             "value": "Done"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Concluído"
+          }
         }
       }
     },
@@ -278,6 +440,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Signed in as"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectado como"
           }
         }
       }
@@ -289,6 +457,12 @@
             "state": "translated",
             "value": "Signed in."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conectado."
+          }
         }
       }
     },
@@ -298,6 +472,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Set up now"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configurar agora"
           }
         }
       }
@@ -309,6 +489,12 @@
             "state": "translated",
             "value": "Set up the OpenSubtitles API key in Settings."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Configure a chave da API do OpenSubtitles em Ajustes."
+          }
         }
       }
     },
@@ -318,6 +504,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Trusted"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Confiável"
           }
         }
       }
@@ -329,6 +521,12 @@
             "state": "translated",
             "value": "Account (optional)"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Conta (opcional)"
+          }
         }
       }
     },
@@ -338,6 +536,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Create a free key on OpenSubtitles"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Criar uma chave grátis no OpenSubtitles"
           }
         }
       }
@@ -349,6 +553,12 @@
             "state": "translated",
             "value": "Create a free account at opensubtitles.com, open API consumers and generate a key. It is stored in the iPhone Keychain."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Crie uma conta grátis em opensubtitles.com, abra API consumers e gere uma chave. Ela fica guardada no Keychain do iPhone."
+          }
         }
       }
     },
@@ -358,6 +568,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Unlock key"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Desbloquear chave"
           }
         }
       }
@@ -369,6 +585,12 @@
             "state": "translated",
             "value": "Enter the password once to unlock the OpenSubtitles key that ships encrypted in the app. It is then stored in the Keychain."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Digite a senha uma vez para liberar a chave do OpenSubtitles que já vem criptografada no app. Ela fica guardada no Keychain."
+          }
         }
       }
     },
@@ -378,6 +600,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "iTorrent downloads"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloads do iTorrent"
           }
         }
       }
@@ -389,6 +617,12 @@
             "state": "translated",
             "value": "Downloads left today"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloads restantes hoje"
+          }
         }
       }
     },
@@ -398,6 +632,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Found by the video hash: the timing matches this exact version."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encontradas pelo hash do vídeo: o tempo das falas bate com esta versão."
           }
         }
       }
@@ -409,6 +649,12 @@
             "state": "translated",
             "value": "Found by name"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Encontradas pelo nome"
+          }
         }
       }
     },
@@ -418,6 +664,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sign in"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Entrar"
           }
         }
       }
@@ -429,6 +681,12 @@
             "state": "translated",
             "value": "Sent: the video hash, the file name and the languages"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enviados: o hash do vídeo, o nome do arquivo e os idiomas"
+          }
         }
       }
     },
@@ -438,6 +696,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Error"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Erro"
           }
         }
       }
@@ -449,6 +713,12 @@
             "state": "translated",
             "value": "This folder is read-only. Choose another folder or copy the video to the iPhone."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Esta pasta não permite gravar arquivos. Escolha outra pasta ou copie o vídeo para o iPhone."
+          }
         }
       }
     },
@@ -458,6 +728,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "OpenSubtitles API key missing"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Falta a chave da API do OpenSubtitles"
           }
         }
       }
@@ -469,6 +745,12 @@
             "state": "translated",
             "value": "Movie.pt-BR.srt"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filme.pt-BR.srt"
+          }
         }
       }
     },
@@ -478,6 +760,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Movie.srt"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filme.srt"
           }
         }
       }
@@ -489,6 +777,12 @@
             "state": "translated",
             "value": "Filter by name"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filtrar por nome"
+          }
         }
       }
     },
@@ -498,6 +792,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Language"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
           }
         }
       }
@@ -509,6 +809,12 @@
             "state": "translated",
             "value": "Search language"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma da busca"
+          }
         }
       }
     },
@@ -518,6 +824,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Primary language"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma primário"
           }
         }
       }
@@ -529,6 +841,12 @@
             "state": "translated",
             "value": "Secondary language"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma secundário"
+          }
         }
       }
     },
@@ -538,6 +856,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Languages"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idiomas"
           }
         }
       }
@@ -549,6 +873,12 @@
             "state": "translated",
             "value": "Include hearing-impaired subtitles"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incluir legendas para surdos"
+          }
         }
       }
     },
@@ -558,6 +888,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Include machine translations"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Incluir traduções automáticas"
           }
         }
       }
@@ -569,6 +905,12 @@
             "state": "translated",
             "value": "A subtitle with this name already exists"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Já existe uma legenda com este nome"
+          }
         }
       }
     },
@@ -578,6 +920,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Has subtitle"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Já tem legenda"
           }
         }
       }
@@ -589,6 +937,12 @@
             "state": "translated",
             "value": "Subtitles"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legenda"
+          }
         }
       }
     },
@@ -598,6 +952,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Subtitle deleted"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legenda apagada"
           }
         }
       }
@@ -609,6 +969,12 @@
             "state": "translated",
             "value": "Subtitle saved: %@"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legenda salva: %@"
+          }
         }
       }
     },
@@ -618,6 +984,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Subtitles"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Legendas"
           }
         }
       }
@@ -629,6 +1001,12 @@
             "state": "translated",
             "value": "Locations"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Locais"
+          }
         }
       }
     },
@@ -638,6 +1016,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Keep both"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Manter as duas"
           }
         }
       }
@@ -649,6 +1033,12 @@
             "state": "translated",
             "value": "Best subtitle (%@)"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Melhor legenda (%@)"
+          }
         }
       }
     },
@@ -658,6 +1048,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Show menu"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar menu"
           }
         }
       }
@@ -669,6 +1065,12 @@
             "state": "translated",
             "value": "Show videos only"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Mostrar só vídeos"
+          }
         }
       }
     },
@@ -678,6 +1080,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "None"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhum"
           }
         }
       }
@@ -689,6 +1097,12 @@
             "state": "translated",
             "value": "No videos in this folder."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhum vídeo nesta pasta."
+          }
         }
       }
     },
@@ -698,6 +1112,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "No matching subtitle was found for this file."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma legenda compatível foi encontrada para este arquivo."
           }
         }
       }
@@ -709,6 +1129,12 @@
             "state": "translated",
             "value": "No subtitle found"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nenhuma legenda encontrada"
+          }
         }
       }
     },
@@ -718,6 +1144,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "File name"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Nome do arquivo"
           }
         }
       }
@@ -729,6 +1161,12 @@
             "state": "translated",
             "value": "Couldn't open this folder. Remove it and add it again."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível abrir esta pasta. Remova e adicione de novo."
+          }
         }
       }
     },
@@ -738,6 +1176,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Couldn't open this folder: %@"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível abrir esta pasta: %@"
           }
         }
       }
@@ -749,6 +1193,12 @@
             "state": "translated",
             "value": "Couldn't save the subtitle: %@"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível salvar a legenda: %@"
+          }
         }
       }
     },
@@ -758,6 +1208,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "OpenSubtitles returned error %ld."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O OpenSubtitles respondeu com erro %ld."
           }
         }
       }
@@ -769,6 +1225,12 @@
             "state": "translated",
             "value": "The app only talks to api.opensubtitles.com, over HTTPS"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O app só conversa com api.opensubtitles.com, por HTTPS"
+          }
         }
       }
     },
@@ -779,12 +1241,24 @@
             "state": "translated",
             "value": "iOS didn't grant access to this folder."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O iOS não liberou o acesso a esta pasta."
+          }
         }
       }
     },
     "OK": {
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        },
+        "pt-BR": {
           "stringUnit": {
             "state": "translated",
             "value": "OK"
@@ -799,6 +1273,12 @@
             "state": "translated",
             "value": "OpenSubtitles"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OpenSubtitles"
+          }
         }
       }
     },
@@ -808,6 +1288,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Options"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Opções"
           }
         }
       }
@@ -819,6 +1305,12 @@
             "state": "translated",
             "value": "Hearing impaired"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Para surdos"
+          }
         }
       }
     },
@@ -828,6 +1320,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Empty folder."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Pasta vazia."
           }
         }
       }
@@ -839,6 +1337,12 @@
             "state": "translated",
             "value": "Ask"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Perguntar"
+          }
         }
       }
     },
@@ -848,6 +1352,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "May need timing adjustment if made for another version of the video."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Podem precisar de ajuste de tempo se forem de outra versão do vídeo."
           }
         }
       }
@@ -859,6 +1369,12 @@
             "state": "translated",
             "value": "Enter username and password."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Preencha usuário e senha."
+          }
         }
       }
     },
@@ -868,6 +1384,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Privacy"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacidade"
           }
         }
       }
@@ -879,6 +1401,12 @@
             "state": "translated",
             "value": "Unexpected response from OpenSubtitles."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Resposta inesperada do OpenSubtitles."
+          }
         }
       }
     },
@@ -888,6 +1416,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Sign out"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sair"
           }
         }
       }
@@ -899,6 +1433,12 @@
             "state": "translated",
             "value": "If the subtitle already exists"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Se a legenda já existir"
+          }
         }
       }
     },
@@ -908,6 +1448,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "No ads, analytics or tracking"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem anúncios, analytics ou rastreamento"
           }
         }
       }
@@ -919,6 +1465,12 @@
             "state": "translated",
             "value": "Can't reach OpenSubtitles: %@"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem conexão com o OpenSubtitles: %@"
+          }
         }
       }
     },
@@ -928,6 +1480,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Without an account OpenSubtitles allows few downloads per day; a free account raises the limit. Searching doesn't count, only downloading."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem conta, o OpenSubtitles libera poucos downloads por dia. Com a conta grátis o limite aumenta. Buscar não gasta o limite; só baixar."
           }
         }
       }
@@ -939,6 +1497,12 @@
             "state": "translated",
             "value": "Without it the app can't search subtitles. The key is free: create an account on OpenSubtitles.com and generate it under API consumers."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sem ela o app não consegue buscar legendas. A chave é gratuita: crie uma conta no OpenSubtitles.com e gere a chave em API consumers."
+          }
         }
       }
     },
@@ -948,6 +1512,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Password"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Senha"
           }
         }
       }
@@ -959,6 +1529,12 @@
             "state": "translated",
             "value": "Wrong password."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Senha incorreta."
+          }
         }
       }
     },
@@ -968,6 +1544,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Synced"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizada"
           }
         }
       }
@@ -979,6 +1561,12 @@
             "state": "translated",
             "value": "Synced with this file"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sincronizadas com este arquivo"
+          }
         }
       }
     },
@@ -988,6 +1576,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Replace"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Substituir"
           }
         }
       }
@@ -999,6 +1593,12 @@
             "state": "translated",
             "value": "Try again"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tentar de novo"
+          }
         }
       }
     },
@@ -1008,6 +1608,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Machine translated"
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tradução automática"
           }
         }
       }
@@ -1019,6 +1625,12 @@
             "state": "translated",
             "value": "Username"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuário"
+          }
         }
       }
     },
@@ -1028,6 +1640,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "Wrong username or password."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Usuário ou senha incorretos."
           }
         }
       }
@@ -1039,12 +1657,24 @@
             "state": "translated",
             "value": "You reached today's OpenSubtitles download limit."
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Você atingiu o limite de downloads de hoje no OpenSubtitles."
+          }
         }
       }
     },
     "iCloud": {
       "localizations": {
         "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud"
+          }
+        },
+        "pt-BR": {
           "stringUnit": {
             "state": "translated",
             "value": "iCloud"

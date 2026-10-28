@@ -633,6 +633,12 @@
             "state": "translated",
             "value": "Download in iTorrent"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Baixar no iTorrent"
+          }
         }
       }
     },
@@ -1747,6 +1753,12 @@
             "state": "translated",
             "value": "Language"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Idioma"
+          }
         }
       }
     },
@@ -2301,6 +2313,12 @@
             "state": "translated",
             "value": "Couldn't open the link"
           }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Não foi possível abrir o link"
+          }
         }
       }
     },
@@ -2454,6 +2472,12 @@
           "stringUnit": {
             "state": "translated",
             "value": "The magnet link looks invalid. Copy it and try adding it from the iTorrent tab."
+          }
+        },
+        "pt-BR": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "O link magnet parece inválido. Copie o link e tente adicionar pela aba iTorrent."
           }
         }
       }
