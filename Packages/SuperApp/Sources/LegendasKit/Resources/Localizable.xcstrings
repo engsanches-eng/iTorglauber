@@ -122,6 +122,16 @@
         }
       }
     },
+    "Ativar a aba Legenda": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Activate the Subtitles tab"
+          }
+        }
+      }
+    },
     "Atualizar": {
       "localizations": {
         "en": {
@@ -232,6 +242,16 @@
         }
       }
     },
+    "Chave liberada. Já dá para buscar legendas.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Key unlocked. You can search subtitles now."
+          }
+        }
+      }
+    },
     "Comportamento": {
       "localizations": {
         "en": {
@@ -328,6 +348,26 @@
           "stringUnit": {
             "state": "translated",
             "value": "Create a free account at opensubtitles.com, open API consumers and generate a key. It is stored in the iPhone Keychain."
+          }
+        }
+      }
+    },
+    "Desbloquear chave": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unlock key"
+          }
+        }
+      }
+    },
+    "Digite a senha uma vez para liberar a chave do OpenSubtitles que já vem criptografada no app. Ela fica guardada no Keychain.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter the password once to unlock the OpenSubtitles key that ships encrypted in the app. It is then stored in the Keychain."
           }
         }
       }
@@ -908,6 +948,16 @@
           "stringUnit": {
             "state": "translated",
             "value": "Password"
+          }
+        }
+      }
+    },
+    "Senha incorreta.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wrong password."
           }
         }
       }

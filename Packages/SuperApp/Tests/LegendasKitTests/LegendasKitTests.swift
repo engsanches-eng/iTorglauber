@@ -62,3 +62,20 @@ final class LegendasKitTests: XCTestCase {
         XCTAssertEqual(SubtitleWriter.targetURL(video: v, language: .portugueseBR, naming: .withLanguage).lastPathComponent, "Filme.2020.pt-BR.srt")
     }
 }
+
+final class EmbeddedKeyTests: XCTestCase {
+    // Vetor de teste com senha descartável ("teste"), gerado fora do app.
+    let blob = EmbeddedKey.Blob(salt: "4xEggZLkeiEcmf/p257qWg==",
+                                sealed: "keK44K7pAaYIhJAQWr+Y4nYQV5s7hVwnJ7pLDA/CRIHo+51hxKjvI0Lf",
+                                iterations: 1000)
+
+    func testCorrectPasswordOpens() {
+        XCTAssertEqual(EmbeddedKey.unlock(blob, password: "teste"), "chave-de-teste")
+    }
+
+    func testWrongPasswordFails() {
+        XCTAssertNil(EmbeddedKey.unlock(blob, password: "Teste"))
+        XCTAssertNil(EmbeddedKey.unlock(blob, password: ""))
+        XCTAssertNil(EmbeddedKey.unlock(EmbeddedKey.openSubtitles, password: "senha-errada"))
+    }
+}

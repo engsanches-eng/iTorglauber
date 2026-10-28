@@ -22,11 +22,27 @@ struct LegendaRootView: View {
     @State private var importing = false
     @State private var showSettings = false
     @State private var error: String?
+    @State private var unlockPassword = ""
+    @State private var unlocking = false
 
     var body: some View {
         NavigationStack {
             List {
                 if !settings.hasApiKey {
+                    Section {
+                        SecureField(L("Senha"), text: $unlockPassword)
+                            .textContentType(.password)
+                            .submitLabel(.go)
+                            .onSubmit(unlock)
+                        Button(action: unlock) {
+                            HStack { Text(L("Desbloquear chave")); if unlocking { Spacer(); ProgressView() } }
+                        }
+                        .disabled(unlockPassword.isEmpty || unlocking)
+                    } header: {
+                        Text(L("Ativar a aba Legenda"))
+                    } footer: {
+                        Text(L("Digite a senha uma vez para liberar a chave do OpenSubtitles que já vem criptografada no app. Ela fica guardada no Keychain."))
+                    }
                     Section {
                         Label(L("Falta a chave da API do OpenSubtitles"), systemImage: "key.fill").foregroundStyle(.orange)
                         Text(L("Sem ela o app não consegue buscar legendas. A chave é gratuita: crie uma conta no OpenSubtitles.com e gere a chave em API consumers."))
@@ -118,6 +134,28 @@ struct SavedFolderDestination: View {
         .onAppear {
             guard url == nil else { return }
             if let u = LegendaSettings.shared.resolve(folder) { url = u } else { failed = true }
+        }
+    }
+}
+
+extension LegendaRootView {
+    func unlock() {
+        let pw = unlockPassword
+        guard !pw.isEmpty, !unlocking else { return }
+        unlocking = true
+        Task {
+            // 600 mil rodadas de PBKDF2: roda fora da tela principal.
+            let key = await Task.detached(priority: .userInitiated) {
+                EmbeddedKey.unlock(EmbeddedKey.openSubtitles, password: pw)
+            }.value
+            unlocking = false
+            if let key, !key.isEmpty {
+                settings.apiKey = key
+                unlockPassword = ""
+                LegendaToast.shared.show(L("Chave liberada. Já dá para buscar legendas."))
+            } else {
+                error = L("Senha incorreta.")
+            }
         }
     }
 }
