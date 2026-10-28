@@ -1,0 +1,54 @@
+name: "Superapp: testa as abas Buscar e Legenda"
+
+# Compila o pacote local (Buscar + Legenda) e roda os testes no simulador.
+# É rápido (não compila a libtorrent), para achar erros antes do build completo.
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["Packages/**", ".github/workflows/superapp-check.yml"]
+
+jobs:
+  check:
+    runs-on: macos-26
+    timeout-minutes: 40
+    steps:
+      - name: Selecionar Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: 26.6
+
+      - name: Baixar codigo
+        uses: actions/checkout@v4
+
+      - name: Compilar e testar no simulador
+        working-directory: Packages/SuperApp
+        run: |
+          set +e -uo pipefail
+          UDID=$(xcrun simctl list devices available -j | python3 -c "
+          import json,sys
+          d=json.load(sys.stdin)['devices']
+          ios=[(k,v) for k,v in d.items() if 'iOS' in k]
+          ios.sort(key=lambda kv: kv[0])
+          for k,v in reversed(ios):
+              for dev in v:
+                  if dev['name'].startswith('iPhone'):
+                      print(dev['udid']); sys.exit()
+          ")
+          echo "Simulador: $UDID"
+          xcodebuild test -scheme SuperApp-Package -destination "id=$UDID" -skipMacroValidation 2>&1 | tee "$RUNNER_TEMP/test.log"
+          STATUS=${PIPESTATUS[0]}
+          if [ "$STATUS" -ne 0 ]; then
+            grep -E "error:|failed|Failing|XCTAssert" -A2 "$RUNNER_TEMP/test.log" | grep -v "^--$" \
+              | sed 's#^/Users/runner/work/[^/]*/[^/]*/##' | awk '!seen[$0]++' | head -60 > "$RUNNER_TEMP/errors.txt" || true
+            python3 - "$RUNNER_TEMP/errors.txt" "$RUNNER_TEMP/test.log" <<'PY'
+          import sys
+          def enc(s): return s.replace('%','%25').replace('\r','').replace('\n','%0A')
+          errs=open(sys.argv[1],errors='replace').read().strip()
+          tail=open(sys.argv[2],errors='replace').read().splitlines()[-40:]
+          if errs: print("::error title=ERROS::"+enc(errs[:6000]))
+          print("::error title=FIM DO LOG::"+enc("\n".join(l[:300] for l in tail)))
+          PY
+            exit "$STATUS"
+          fi
+          grep -E "Executed [0-9]+ test" "$RUNNER_TEMP/test.log" | tail -1

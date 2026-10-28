@@ -111,7 +111,7 @@ private extension CellularNotAllowedOverlay {
         overlayViewController.view.layoutIfNeeded()
 
         if let viewController = UIApplication.shared.keySceneWindow?.rootViewController?.topPresented,
-           let svc = viewController as? UISplitViewController,
+           let svc = viewController.iTorrentSplit,
            let topVC = svc.detailNavigationController?.topViewController
         {
             bottomConstraint.constant = max(30, topVC.view.layoutMargins.bottom - overlayView.frame.height / 2)

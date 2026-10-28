@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C1E778318F6A55DB8FBD9476 /* TorrentSearchKit in Frameworks */ = {isa = PBXBuildFile; productRef = CE55FDA3CD1235E9EC9620B2 /* TorrentSearchKit */; };
+		68B3AC8B5F013A64401FB5CC /* LegendasKit in Frameworks */ = {isa = PBXBuildFile; productRef = A8735057A6994B2607F34841 /* LegendasKit */; };
 		7C013DE32C28AA3C0026A11B /* sound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7C013DE22C28A97F0026A11B /* sound.m4a */; };
 		7C013DE42C2F38AA0026A11B /* LocalizationAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1352D1D2BBC2F7F00104E7B /* LocalizationAttribute.swift */; };
 		7C013DE52C2F41760026A11B /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = D1AA00CF2AFAC7D200B74629 /* Localizable.xcstrings */; };
@@ -604,6 +606,8 @@
 				D1DB71832BD80318007F9267 /* GCDWebServers in Frameworks */,
 				7CDC7BBE2C516ADD00B51EFB /* FirebaseCrashlytics in Frameworks */,
 				D1ACFDDA2AF7D55F0098FF56 /* MvvmFoundation in Frameworks */,
+				C1E778318F6A55DB8FBD9476 /* TorrentSearchKit in Frameworks */,
+				68B3AC8B5F013A64401FB5CC /* LegendasKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1722,6 +1726,8 @@
 				7C5B73702F73288F00CC2B6C /* CombineCocoa */,
 				7C36BB002FDA0FCE006C240E /* Perception */,
 				7C1CB7292FDB4597000CCD0D /* SwiftVLC */,
+				CE55FDA3CD1235E9EC9620B2 /* TorrentSearchKit */,
+				A8735057A6994B2607F34841 /* LegendasKit */,
 			);
 			productName = iTorrent;
 			productReference = D1A2269A2AEEEFCC00669D6D /* iTorrent.app */;
@@ -1772,6 +1778,7 @@
 				7C5B736F2F73288F00CC2B6C /* XCRemoteSwiftPackageReference "CombineCocoa" */,
 				7C36BAFF2FDA0FCE006C240E /* XCRemoteSwiftPackageReference "swift-perception" */,
 				7C1CB7282FDB4597000CCD0D /* XCLocalSwiftPackageReference "Submodules/SwiftVLC" */,
+				20EFB3A334F2A253F76BD689 /* XCLocalSwiftPackageReference "Packages/SuperApp" */,
 			);
 			productRefGroup = D1A2269B2AEEEFCC00669D6D /* Products */;
 			projectDirPath = "";
@@ -2742,6 +2749,10 @@
 			isa = XCLocalSwiftPackageReference;
 			relativePath = Submodules/GCDWebServer;
 		};
+		20EFB3A334F2A253F76BD689 /* XCLocalSwiftPackageReference "Packages/SuperApp" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = Packages/SuperApp;
+		};
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
@@ -2796,6 +2807,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		CE55FDA3CD1235E9EC9620B2 /* TorrentSearchKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20EFB3A334F2A253F76BD689 /* XCLocalSwiftPackageReference "Packages/SuperApp" */;
+			productName = TorrentSearchKit;
+		};
+		A8735057A6994B2607F34841 /* LegendasKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 20EFB3A334F2A253F76BD689 /* XCLocalSwiftPackageReference "Packages/SuperApp" */;
+			productName = LegendasKit;
+		};
 		7C1CB7292FDB4597000CCD0D /* SwiftVLC */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = SwiftVLC;

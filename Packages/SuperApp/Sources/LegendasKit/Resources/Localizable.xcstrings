@@ -1,0 +1,1006 @@
+{
+  "sourceLanguage": "pt-BR",
+  "version": "1.0",
+  "strings": {
+    "%ld downloads restantes hoje": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%ld downloads left today"
+          }
+        }
+      }
+    },
+    "A busca usa os dois idiomas. \"Melhor legenda\" tenta o primário e, se não houver, o secundário.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searches use both languages. \"Best subtitle\" tries the primary language first, then the secondary."
+          }
+        }
+      }
+    },
+    "A chave da API do OpenSubtitles foi recusada. Confira em Ajustes.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OpenSubtitles rejected the API key. Check it in Settings."
+          }
+        }
+      }
+    },
+    "Abrir ajustes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Open Settings"
+          }
+        }
+      }
+    },
+    "Adicionar pasta…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add folder…"
+          }
+        }
+      }
+    },
+    "Adicione pastas do app Arquivos: No meu iPhone, iCloud Drive ou um servidor de rede (SMB). Toque num vídeo para buscar a legenda; ela é salva ao lado do vídeo, com o mesmo nome.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Add folders from the Files app: On My iPhone, iCloud Drive or a network server (SMB). Tap a video to find its subtitle; it is saved next to the video with the same name."
+          }
+        }
+      }
+    },
+    "Ajustes": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Settings"
+          }
+        }
+      }
+    },
+    "Ajustes de legenda": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subtitle settings"
+          }
+        }
+      }
+    },
+    "Ao tocar no vídeo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "When tapping a video"
+          }
+        }
+      }
+    },
+    "Apagar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete"
+          }
+        }
+      }
+    },
+    "Apagar a legenda deste vídeo?": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete this video's subtitle?"
+          }
+        }
+      }
+    },
+    "Apagar legenda": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Delete subtitle"
+          }
+        }
+      }
+    },
+    "Atualizar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Refresh"
+          }
+        }
+      }
+    },
+    "Baixando legenda…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloading subtitle…"
+          }
+        }
+      }
+    },
+    "Baixando o vídeo do iCloud… Tente de novo em instantes.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloading the video from iCloud… Try again in a moment."
+          }
+        }
+      }
+    },
+    "Baixar a melhor direto": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Download the best one"
+          }
+        }
+      }
+    },
+    "Buscando legendas…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Searching subtitles…"
+          }
+        }
+      }
+    },
+    "Buscar em %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search in %@"
+          }
+        }
+      }
+    },
+    "Buscar em outro idioma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search in another language"
+          }
+        }
+      }
+    },
+    "Buscar em outro idioma…": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search in another language…"
+          }
+        }
+      }
+    },
+    "Buscar idioma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search language"
+          }
+        }
+      }
+    },
+    "Cancelar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Cancel"
+          }
+        }
+      }
+    },
+    "Chave da API": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "API key"
+          }
+        }
+      }
+    },
+    "Comportamento": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Behavior"
+          }
+        }
+      }
+    },
+    "Concluído": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Done"
+          }
+        }
+      }
+    },
+    "Conectado como": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signed in as"
+          }
+        }
+      }
+    },
+    "Conectado.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Signed in."
+          }
+        }
+      }
+    },
+    "Configurar agora": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set up now"
+          }
+        }
+      }
+    },
+    "Configure a chave da API do OpenSubtitles em Ajustes.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Set up the OpenSubtitles API key in Settings."
+          }
+        }
+      }
+    },
+    "Confiável": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Trusted"
+          }
+        }
+      }
+    },
+    "Conta (opcional)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Account (optional)"
+          }
+        }
+      }
+    },
+    "Criar uma chave grátis no OpenSubtitles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create a free key on OpenSubtitles"
+          }
+        }
+      }
+    },
+    "Crie uma conta grátis em opensubtitles.com, abra API consumers e gere uma chave. Ela fica guardada no Keychain do iPhone.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Create a free account at opensubtitles.com, open API consumers and generate a key. It is stored in the iPhone Keychain."
+          }
+        }
+      }
+    },
+    "Downloads do iTorrent": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iTorrent downloads"
+          }
+        }
+      }
+    },
+    "Downloads restantes hoje": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Downloads left today"
+          }
+        }
+      }
+    },
+    "Encontradas pelo hash do vídeo: o tempo das falas bate com esta versão.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Found by the video hash: the timing matches this exact version."
+          }
+        }
+      }
+    },
+    "Encontradas pelo nome": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Found by name"
+          }
+        }
+      }
+    },
+    "Entrar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign in"
+          }
+        }
+      }
+    },
+    "Enviados: o hash do vídeo, o nome do arquivo e os idiomas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sent: the video hash, the file name and the languages"
+          }
+        }
+      }
+    },
+    "Erro": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Error"
+          }
+        }
+      }
+    },
+    "Esta pasta não permite gravar arquivos. Escolha outra pasta ou copie o vídeo para o iPhone.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "This folder is read-only. Choose another folder or copy the video to the iPhone."
+          }
+        }
+      }
+    },
+    "Falta a chave da API do OpenSubtitles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OpenSubtitles API key missing"
+          }
+        }
+      }
+    },
+    "Filme.pt-BR.srt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Movie.pt-BR.srt"
+          }
+        }
+      }
+    },
+    "Filme.srt": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Movie.srt"
+          }
+        }
+      }
+    },
+    "Filtrar por nome": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Filter by name"
+          }
+        }
+      }
+    },
+    "Idioma": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Language"
+          }
+        }
+      }
+    },
+    "Idioma da busca": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Search language"
+          }
+        }
+      }
+    },
+    "Idioma primário": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Primary language"
+          }
+        }
+      }
+    },
+    "Idioma secundário": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Secondary language"
+          }
+        }
+      }
+    },
+    "Idiomas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Languages"
+          }
+        }
+      }
+    },
+    "Incluir legendas para surdos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include hearing-impaired subtitles"
+          }
+        }
+      }
+    },
+    "Incluir traduções automáticas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Include machine translations"
+          }
+        }
+      }
+    },
+    "Já existe uma legenda com este nome": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "A subtitle with this name already exists"
+          }
+        }
+      }
+    },
+    "Já tem legenda": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Has subtitle"
+          }
+        }
+      }
+    },
+    "Legenda": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subtitles"
+          }
+        }
+      }
+    },
+    "Legenda apagada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subtitle deleted"
+          }
+        }
+      }
+    },
+    "Legenda salva: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subtitle saved: %@"
+          }
+        }
+      }
+    },
+    "Legendas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Subtitles"
+          }
+        }
+      }
+    },
+    "Locais": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Locations"
+          }
+        }
+      }
+    },
+    "Manter as duas": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Keep both"
+          }
+        }
+      }
+    },
+    "Melhor legenda (%@)": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Best subtitle (%@)"
+          }
+        }
+      }
+    },
+    "Mostrar menu": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show menu"
+          }
+        }
+      }
+    },
+    "Mostrar só vídeos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Show videos only"
+          }
+        }
+      }
+    },
+    "Nenhum": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "None"
+          }
+        }
+      }
+    },
+    "Nenhum vídeo nesta pasta.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No videos in this folder."
+          }
+        }
+      }
+    },
+    "Nenhuma legenda compatível foi encontrada para este arquivo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No matching subtitle was found for this file."
+          }
+        }
+      }
+    },
+    "Nenhuma legenda encontrada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No subtitle found"
+          }
+        }
+      }
+    },
+    "Nome do arquivo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "File name"
+          }
+        }
+      }
+    },
+    "Não foi possível abrir esta pasta. Remova e adicione de novo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't open this folder. Remove it and add it again."
+          }
+        }
+      }
+    },
+    "Não foi possível abrir esta pasta: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't open this folder: %@"
+          }
+        }
+      }
+    },
+    "Não foi possível salvar a legenda: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Couldn't save the subtitle: %@"
+          }
+        }
+      }
+    },
+    "O OpenSubtitles respondeu com erro %ld.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OpenSubtitles returned error %ld."
+          }
+        }
+      }
+    },
+    "O app só conversa com api.opensubtitles.com, por HTTPS": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "The app only talks to api.opensubtitles.com, over HTTPS"
+          }
+        }
+      }
+    },
+    "O iOS não liberou o acesso a esta pasta.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iOS didn't grant access to this folder."
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OK"
+          }
+        }
+      }
+    },
+    "OpenSubtitles": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "OpenSubtitles"
+          }
+        }
+      }
+    },
+    "Opções": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Options"
+          }
+        }
+      }
+    },
+    "Para surdos": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Hearing impaired"
+          }
+        }
+      }
+    },
+    "Pasta vazia.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Empty folder."
+          }
+        }
+      }
+    },
+    "Perguntar": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Ask"
+          }
+        }
+      }
+    },
+    "Podem precisar de ajuste de tempo se forem de outra versão do vídeo.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "May need timing adjustment if made for another version of the video."
+          }
+        }
+      }
+    },
+    "Preencha usuário e senha.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Enter username and password."
+          }
+        }
+      }
+    },
+    "Privacidade": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Privacy"
+          }
+        }
+      }
+    },
+    "Resposta inesperada do OpenSubtitles.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Unexpected response from OpenSubtitles."
+          }
+        }
+      }
+    },
+    "Sair": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Sign out"
+          }
+        }
+      }
+    },
+    "Se a legenda já existir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "If the subtitle already exists"
+          }
+        }
+      }
+    },
+    "Sem anúncios, analytics ou rastreamento": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "No ads, analytics or tracking"
+          }
+        }
+      }
+    },
+    "Sem conexão com o OpenSubtitles: %@": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Can't reach OpenSubtitles: %@"
+          }
+        }
+      }
+    },
+    "Sem conta, o OpenSubtitles libera poucos downloads por dia. Com a conta grátis o limite aumenta. Buscar não gasta o limite; só baixar.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Without an account OpenSubtitles allows few downloads per day; a free account raises the limit. Searching doesn't count, only downloading."
+          }
+        }
+      }
+    },
+    "Sem ela o app não consegue buscar legendas. A chave é gratuita: crie uma conta no OpenSubtitles.com e gere a chave em API consumers.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Without it the app can't search subtitles. The key is free: create an account on OpenSubtitles.com and generate it under API consumers."
+          }
+        }
+      }
+    },
+    "Senha": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Password"
+          }
+        }
+      }
+    },
+    "Sincronizada": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synced"
+          }
+        }
+      }
+    },
+    "Sincronizadas com este arquivo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Synced with this file"
+          }
+        }
+      }
+    },
+    "Substituir": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Replace"
+          }
+        }
+      }
+    },
+    "Tentar de novo": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Try again"
+          }
+        }
+      }
+    },
+    "Tradução automática": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Machine translated"
+          }
+        }
+      }
+    },
+    "Usuário": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Username"
+          }
+        }
+      }
+    },
+    "Usuário ou senha incorretos.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Wrong username or password."
+          }
+        }
+      }
+    },
+    "Você atingiu o limite de downloads de hoje no OpenSubtitles.": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "You reached today's OpenSubtitles download limit."
+          }
+        }
+      }
+    },
+    "iCloud": {
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud"
+          }
+        }
+      }
+    }
+  }
+}

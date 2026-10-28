@@ -1,11 +1,11 @@
-name: "iTorrent sem anuncios (IPA nao assinado para AltStore)"
+name: "Superapp iTorrent sem anuncios (IPA nao assinado para AltStore)"
 
 # Roda sozinho a cada push neste arquivo, ou manualmente em Actions > Run workflow
 on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: [".github/workflows/build-sem-anuncios.yml"]
+    paths: [".github/workflows/build-sem-anuncios.yml", "Packages/**", "iTorrent/**", "iTorrent.xcodeproj/**"]
 
 permissions:
   contents: write
@@ -117,8 +117,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: sem-anuncios-${{ github.run_number }}
-          name: iTorrent sem anuncios (build ${{ github.run_number }})
-          body: IPA nao assinado, sem SDK de anuncios e sem Firebase. Instalar pelo AltStore > My Apps > +.
+          name: Superapp - Buscar, iTorrent e Legenda (build ${{ github.run_number }})
+          body: IPA nao assinado, sem SDK de anuncios e sem Firebase. Tres abas - Buscar, iTorrent e Legenda. Substitui o iTorrent ja instalado (mesmo app). Instalar pelo AltStore > My Apps > +.
           files: |
             ${{ runner.temp }}/ipa/iTorrent-sem-anuncios.ipa
             ${{ runner.temp }}/ipa/iTorrent-sem-anuncios-sem-widget.ipa

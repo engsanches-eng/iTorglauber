@@ -9,6 +9,8 @@ import LibTorrent
 import MvvmFoundation
 import UIKit
 import AVKit
+import TorrentSearchKit
+import LegendasKit
 
 class SceneDelegate: MvvmSceneDelegate {
     override func initialSetup() {
@@ -92,7 +94,7 @@ class SceneDelegate: MvvmSceneDelegate {
         let svc = UISplitViewController.resolve()
         svc.viewControllers = [nvc]
 
-        return svc
+        return makeSuperAppTabs(iTorrent: svc)
     }
 
     override func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
@@ -140,5 +142,75 @@ private extension SceneDelegate {
             guard let window else { return }
             await InitialSetupFlow.startIfNeeded(in: window)
         }
+    }
+}
+
+// MARK: - Superapp: Buscar · iTorrent · Legenda
+
+extension SceneDelegate {
+    private static let lastTabKey = "superapp_last_tab"
+
+    func makeSuperAppTabs(iTorrent svc: UIViewController) -> UIViewController {
+        svc.tabBarItem = UITabBarItem(title: "iTorrent", image: UIImage(systemName: "arrow.down.circle"), tag: 1)
+
+        // Links magnet da aba Buscar entram direto no iTorrent, sem sair do app.
+        BuscaTab.openMagnet = { [weak self] url in
+            self?.addMagnetFromSearch(url) ?? false
+        }
+
+        let downloads = LegendaLocation(name: LegendaTab.iTorrentDownloadsName,
+                                        url: TorrentService.downloadPath,
+                                        systemImage: "arrow.down.circle")
+
+        let tabs = SuperAppTabBarController()
+        tabs.viewControllers = [
+            BuscaTab.makeViewController(),
+            svc,
+            LegendaTab.makeViewController(locations: [downloads]),
+        ]
+        let last = UserDefaults.standard.object(forKey: Self.lastTabKey) as? Int ?? 1
+        tabs.selectedIndex = (0..<3).contains(last) ? last : 1
+        tabs.onSelect = { index in UserDefaults.standard.set(index, forKey: Self.lastTabKey) }
+        return tabs
+    }
+
+    /// Adiciona o magnet no iTorrent e mostra a aba de downloads.
+    func addMagnetFromSearch(_ url: URL) -> Bool {
+        guard url.absoluteString.lowercased().hasPrefix("magnet:"),
+              let magnet = MagnetURI(with: url)
+        else { return false }
+
+        TorrentService.shared.addTorrent(by: magnet)
+        if let tabs = window?.rootViewController as? UITabBarController,
+           let index = tabs.viewControllers?.firstIndex(where: { $0 is UISplitViewController }) {
+            tabs.selectedIndex = index
+            UserDefaults.standard.set(index, forKey: Self.lastTabKey)
+        }
+        return true
+    }
+}
+
+/// Barra de abas do superapp (avisa qual aba foi escolhida para reabrir nela).
+final class SuperAppTabBarController: UITabBarController, UITabBarControllerDelegate {
+    var onSelect: ((Int) -> Void)?
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        delegate = self
+    }
+
+    func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        onSelect?(selectedIndex)
+    }
+}
+
+extension UIViewController {
+    /// A tela do iTorrent (split view). No superapp ela fica dentro da barra de abas.
+    var iTorrentSplit: UISplitViewController? {
+        if let svc = self as? UISplitViewController { return svc }
+        if let tabs = self as? UITabBarController {
+            return tabs.viewControllers?.lazy.compactMap { $0 as? UISplitViewController }.first
+        }
+        return nil
     }
 }

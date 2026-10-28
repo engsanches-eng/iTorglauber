@@ -37,11 +37,17 @@ extension AppDelegate {
     static func showTorrentDetailScreen(with torrentHandle: TorrentHandle) {
         guard let scene = UIApplication.shared.connectedScenes.compactMap({ $0 as? UIWindowScene }).first,
               let window = scene.keyWindow,
-              let viewController = window.rootViewController
+              let rootViewController = window.rootViewController
         else { return }
 
+        // Superapp: abre a aba iTorrent antes de mostrar o torrent.
+        if let tabs = rootViewController as? UITabBarController, let svc = rootViewController.iTorrentSplit {
+            tabs.selectedViewController = svc
+        }
+        let viewController = rootViewController.iTorrentSplit ?? rootViewController
+
         // If same screen already presented, do not show another one
-        if let svc = viewController as? UISplitViewController,
+        if let svc = viewController.iTorrentSplit,
            let mvvmVC = svc.detailNavigationController?.topViewController as? any MvvmViewControllerProtocol,
            let viewModel = mvvmVC.viewModel as? TorrentDetailsViewModel,
            viewModel.infoHashes.best.hex == torrentHandle.snapshot.infoHashes.best.hex
