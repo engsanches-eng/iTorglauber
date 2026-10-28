@@ -1,4 +1,5 @@
 // swift-tools-version:5.9
+// Rebuild: fila de runners macOS do GitHub falhou na tentativa anterior.
 // Superapp: as abas "Buscar" (TorrentSearch) e "Legenda" ficam neste pacote local,
 // em módulos próprios, para não misturar nomes com o código do iTorrent.
 import PackageDescription
